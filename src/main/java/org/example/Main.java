@@ -10,6 +10,7 @@ public class Main {
         Scanner console = new Scanner(System.in);
         int negative = 0;
         int sumNegative = 0;
+        //System.out.println("ВВедите количество чисел в массиве:");
         while (!console.hasNextInt()) {
             System.out.println("Couldn't parse a number. Please, try again");
             console.next();
